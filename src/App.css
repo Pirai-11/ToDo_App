@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+input{
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+}
+.App .column {
+  width: 30%;
+  float:left;
+  padding-left: 85px;
+}
+.title{
+  color: rgb(128, 0, 105);
+  font-style: italic;
+}
+.droppable-col {
+  width: 100%;
+  background-color: rgb(2, 139, 173);
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin-bottom: 10px;
+  background-color: rgb(219, 216, 216);
+  color: rgb(3, 3, 3);
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 7px;
+}
+.item.dragging {
+  background-color: rgb(203, 255, 80);
+}
+.set{
+  border:1px solid black;
+  text-align: center;
+  margin-left: 425px;
+  height: 180px;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.btn{
+  width: 80px;
+  height: 35px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(29, 232, 15);
+  border-radius: 10px;
+  font-size: medium;
+  cursor: pointer;
+}
